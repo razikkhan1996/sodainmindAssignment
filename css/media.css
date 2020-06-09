@@ -1,0 +1,806 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) 
+{
+    /* header-section */
+
+#header-section
+{
+    width: 100%;
+    height: 10vh;
+    /* border: 1px solid red; */
+    background-color: rgb(238,238,238);
+}
+
+.nav
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem;
+    font-weight: bold;
+}
+
+.nav li
+{
+    list-style: none;
+    text-transform: uppercase;
+    color: red;
+    font-size: 1.5rem;
+}
+
+.nav .btn
+{
+    list-style: none;
+    text-transform: uppercase;
+    color: red;
+    background-color: rgb(189,189,189);
+    font-size: .5rem;
+    padding: .5rem;
+    /* border: 2px solid red; */
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 7px;
+    font-weight: bold;
+
+}
+
+.nav .btn:hover
+{
+    box-shadow: 2px 2px 4px black;
+}
+
+
+/* middle-section */
+
+
+#middle
+{
+    /* border: 1px solid green; */
+    width: 100%;
+    height: auto;
+    background-image: url("../images/fill-1@3x.png"),url("../images/group-20@3x.png");
+    background-repeat: no-repeat,no-repeat;
+    background-size: contain ,contain;
+    background-position: right top,100% top;
+    display: flex;
+    flex-direction: column;
+    padding:1rem ;
+}
+
+
+.middle-container-1
+{
+    height: fit-content;
+    width: 100%;
+    /* border: 1px solid maroon; */
+    overflow-wrap: break-word;
+    padding-top: .1rem;
+    font-size: .8rem;
+    margin-bottom: 2rem;
+}
+
+.middle-container-1 h1
+{
+    text-transform: capitalize;
+    margin-bottom: 4rem;
+    color: rgb(33,33,33);
+}
+
+
+.middle-container-2
+{
+    height: fit-content;
+    width: 100%;
+    /* border: 1px solid maroon; */
+    border-radius: 0px;
+    box-shadow: 2px 2px 4px rgb(33,33,33);
+    background-color: rgb(250,250,250);
+    padding: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.middle-container-2 input
+{
+    width: 100%;
+    padding: .3rem;
+    border-radius: .2rem;
+}
+
+
+/* middle-2-section */
+
+
+#middle-2
+{
+    /* border:1px solid purple; */
+    width: 100%;
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#middle-2 .image
+{
+    height:60vh;
+    width: 100%;
+    /* border:1px solid purple; */
+}
+
+#middle-2 .content
+{
+    height:inherit;
+    text-align: center;
+    width: 100%;
+    /* border:1px solid purple; */
+}
+
+
+
+.container
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.content-container
+{
+    /* border: 1px solid red;  */
+}
+
+.container-image,.container-content
+{
+    /* border: 1px solid red; */
+    align-self: center;
+    font-size: .7rem;
+}
+
+/* middle-3-section*/
+
+#middle-3
+{
+    width: 100%;
+    height: auto;
+    /* border: 1px solid blue; */
+}
+
+#middle-3 p
+{
+    font-size: 10px;
+    text-align: center;
+}
+
+.middle-3-container
+{
+    width:80%;
+    height: fit-content;
+    /* border: 1px solid maroon; */
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    position: relative;
+    left: 10%;
+    line-height: 1rem;
+    margin-bottom: 2rem;
+}
+
+.middle-3-container .card
+{
+    width: 100%;
+    height: 12rem;
+    /* border: 1px solid black; */
+    text-align: center;
+    margin-top: 1rem;
+    box-shadow: 2px 2px 4px rgb(2,136,209);
+}
+
+
+#middle-4 .card img
+{
+    width: 100%;
+}
+
+#middle-4 .card
+{
+    padding-top: 1rem;
+}
+
+
+
+
+
+#middle-5
+{
+    width: 100%;
+    height: auto;
+    /* border: 1px solid black; */
+    background-image: url(../images/group-14@3x.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.middle-5-container
+{
+    width: 100%;
+    height: auto;
+    /* border: 1px solid yellowgreen; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+}
+
+
+.middle-5-container .gallery
+{
+    width: 90%;
+    height: 60vh;
+    /* border: 1px solid maroon; */
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+
+.gallery-card
+{
+    height: 7rem;
+    width: 22%;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+}
+
+
+/* footer-section */
+#footer-section
+{
+    width: 100%;
+    height: auto;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer-card
+{
+    /* height: 10rem; */
+    width: 80%;
+    height: 40vh;
+    /* border: 1px solid black; */
+    padding: 1rem;
+    margin-top: 1rem;
+    text-align: center;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.company-detail
+{
+    height: 12vh;
+    width: 100%;
+    /* border: 1px solid black; */
+    background-color: rgb(3,169,244);
+    margin-top: 2rem;
+}
+
+.company-detail h1
+{
+    color: white;
+    font-size: .4rem;
+    text-align: left;
+    overflow-wrap: break-word;
+}
+
+
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px)
+{
+
+#header-section
+{
+    width: 100%;
+    height: 20vh;
+    /* border: 1px solid red; */
+    background-color: rgb(238,238,238);
+}
+
+
+.middle-container-1
+{
+    height: fit-content;
+    width: 40%;
+    /* border: 1px solid maroon; */
+    padding: 10px;
+    overflow-wrap: break-word;
+    padding-top: 2rem;
+}
+
+.middle-container-1 h1
+{
+    text-transform: capitalize;
+    margin-bottom: 2rem;
+    font-size: 1.08rem;
+    color: rgb(33,33,33);
+}
+
+.middle-container-2
+{
+    height: fit-content;
+    width: 35%;
+    /* border: 1px solid maroon; */
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px rgb(33,33,33);
+    background-color: rgb(250,250,250);
+    padding: 2rem;
+    margin-bottom: -2rem;
+    text-align: center;
+}
+
+
+.middle-container-2 input
+{
+    width: 100%;
+    padding: .4rem;
+    border-radius: .2rem;
+}
+
+.btn
+{
+    list-style: none;
+    text-transform: uppercase;
+    color: red;
+    font-size: .4rem;
+    padding: .3rem;
+    /* border: 2px solid red; */
+    outline: none;
+    cursor: pointer;
+    border-radius: 7px;
+    font-weight: bold;
+
+}
+
+#middle-2
+{
+    /* border:1px solid purple; */
+    width: 98%;
+    /* height: 100%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+#middle-2 .image,.content
+{
+    height:auto;
+    width: 100%;
+    /* border:1px solid purple; */
+}
+
+#middle-2 .image
+{
+    background-image: url(../images/minimalist-showcase-project-presentation.png),url(../images/group-3.png);
+    background-repeat: no-repeat,no-repeat;
+    background-position: right center,left center;
+    background-size:60% 100%,70% 100%;
+    height: 100vh;
+
+}
+
+#middle-2 .image
+{
+    height:60vh;
+    width: 100%;
+    /* border:1px solid purple; */
+}
+
+#middle-2 .content
+{
+    height:inherit;
+    text-align: center;
+    width: 100%;
+    /* border:1px solid purple; */
+}
+
+#middle-2 .content h1
+{
+    font-size: 2rem;
+}
+
+
+.container
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.content-container
+{
+    /* border: 1px solid red;  */
+}
+
+.container-image,.container-content
+{
+    /* border: 1px solid red; */
+    /* align-self: center; */
+    font-size: .7rem;
+}
+
+.middle-3-container
+{
+    width:80%;
+    height: 70%;
+    /* border: 1px solid maroon; */
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    position: relative;
+    /* left: 10%; */
+}
+
+.middle-3-container .card
+{
+    width: 22%;
+    height: 50%;
+    /* border: 1px solid black; */
+    text-align: center;
+    margin-bottom: 7rem;
+}
+
+
+.middle-5-container
+{
+    width: 100%;
+    height: auto;
+    /* border: 1px solid yellowgreen; */
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    margin-bottom: 3rem;
+}
+
+
+.middle-5-container .contact
+{
+    width: 10%;
+    height: 20vh;
+    /* border: 1px solid maroon; */
+}
+
+
+
+.middle-5-container .gallery
+{
+    width: 60%;
+    height: 60vh;
+    /* border: 1px solid maroon; */
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.gallery-card
+{
+    height: 5rem;
+    width: 21%;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+}
+
+.gallery-card:hover
+{
+    /* box-shadow: 2px 2px 4px black; */
+    transform: scale(1.020);
+    transition: .5s linear;
+    opacity: .5;
+}
+
+
+.footer-card
+{
+    width: 22%;
+    height: 90vh;
+    /* border: 1px solid black; */
+    padding: 2rem;
+    text-align: center;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.company-detail
+{
+    height: 20vh;
+    width: 100%;
+    /* border: 1px solid black; */
+    background-color: rgb(3,169,244);
+}
+
+
+
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) 
+{
+
+    #header-section
+    {
+        width: 100%;
+        height: 15vh;
+        /* border: 1px solid red; */
+        background-color: rgb(238,238,238);
+    }
+    
+    
+    .middle-container-1
+    {
+        height: fit-content;
+        width: 40%;
+        /* border: 1px solid maroon; */
+        padding: 20px;
+        overflow-wrap: break-word;
+        padding-top: 2rem;
+    }
+    
+    .middle-container-1 h1
+    {
+        text-transform: capitalize;
+        margin-bottom: 2rem;
+        font-size: 2rem;
+        color: rgb(33,33,33);
+    }
+
+.middle-container-2 input
+{
+    width: 100%;
+    padding: .3rem;
+    border-radius: .2rem;
+}
+
+.btn
+{
+    list-style: none;
+    text-transform: uppercase;
+    color: red;
+    font-size: .5rem;
+    padding: .6rem;
+    /* border: 2px solid red; */
+    outline: none;
+    cursor: pointer;
+    border-radius: 7px;
+    font-weight: bold;
+
+}
+
+#middle-2
+{
+    /* border:1px solid purple; */
+    width: 100%;
+    /* height: 100%; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+#middle-2 .image,.content
+{
+    width: 49%;
+    /* border:1px solid purple; */
+}
+
+#middle-2 .image
+{
+    background-image: url(../images/minimalist-showcase-project-presentation.png),url(../images/group-3.png);
+    background-repeat: no-repeat,no-repeat;
+    background-position: right center,left center;
+    background-size:100%,70%;
+    height: 80vh;
+}
+
+#middle-2 .content h1
+{
+    font-size: 2.5rem;
+}
+
+#middle-2 .content
+{
+    height:inherit;
+    text-align: left;
+    /* border:1px solid purple; */
+    width: 49%;
+}
+
+
+.container
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.content-container
+{
+    /* border: 1px solid red;  */
+}
+
+.container-image,.container-content
+{
+    /* border: 1px solid red; */
+    font-size: 1rem;
+    align-self: flex-start;
+}
+
+
+
+.middle-3-container
+{
+    width:80%;
+    height: 70%;
+    /* border: 1px solid maroon; */
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    position: relative;
+    left: 10%;
+}
+
+.middle-3-container .card
+{
+    width: 22%;
+    height: 50%;
+    /* border: 1px solid black; */
+    text-align: center;
+    margin-bottom: .5rem;
+}
+
+.middle-5-container
+{
+    width: 100%;
+    height: auto;
+    /* border: 1px solid yellowgreen; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.middle-5-container .contact
+{
+    width: 30%;
+    height: 60vh;
+    /* border: 1px solid maroon; */
+}
+
+
+.middle-5-container .gallery
+{
+    width: 50%;
+    height: 20vh;
+    /* border: 1px solid maroon; */
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.gallery-card
+{
+    height: 5rem;
+    width: 22%;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+}
+
+
+
+
+.footer-card
+{
+    width: 22%;
+    height: 40vh;
+    /* border: 1px solid black; */
+    padding: 1rem;
+    text-align: center;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.company-detail
+{
+    height: 10vh;
+    width: 100%;
+    /* border: 1px solid black; */
+    background-color: rgb(3,169,244);
+}
+
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px)
+{
+
+.middle-container-2
+{
+    height: fit-content;
+    width: 23%;
+    /* border: 1px solid maroon; */
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px rgb(33,33,33);
+    background-color: rgb(250,250,250);
+    padding: 2rem;
+    margin-bottom: -2rem;
+    text-align: center;
+}
+
+.middle-container-2 input
+{
+    width: 100%;
+    padding: .5rem;
+    border-radius: .2rem;
+}
+
+.btn
+{
+    list-style: none;
+    text-transform: uppercase;
+    color: red;
+    font-size: .8rem;
+    padding: .6rem;
+    /* border: 2px solid red; */
+    outline: none;
+    cursor: pointer;
+    border-radius: 7px;
+    font-weight: bold;
+
+}
+
+.middle-5-container
+{
+    width: 100%;
+    height: 70vh;
+    /* border: 1px solid yellowgreen; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.middle-5-container .gallery
+{
+    width: 50%;
+    height: 40vh;
+    /* border: 1px solid maroon; */
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.gallery-card
+{
+    height: 5rem;
+    width: 22%;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+}
+
+
+}
